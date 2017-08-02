@@ -74,9 +74,6 @@ h2 {
   margin: 16px auto 16px 16px;
 }
 
-
-
-
 .product-recommendations {
   padding: 16px 16px auto 16px;
   display: flex;
@@ -95,7 +92,7 @@ h2 {
 }
 
 .product-recom-title {
-  width: 130.5px;
+  width: 130px;
   height: 38px;
   font-family: Lora;
   font-weight: 400;
@@ -116,7 +113,17 @@ h2 {
 
 }
 
-
+.more-section-link {
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  color: #171717;
+  font-style: italic;
+  display: block;
+  margin: 8px auto 16px 16px;
+}
 
 
 p {
@@ -137,6 +144,7 @@ p {
   text-align: left;
   line-height: 24px;
   margin: 0;
+  display: block;
 
 }
 
@@ -238,4 +246,37 @@ button.white {
 
 .button-container {
     padding: 3px;
+}
+
+.footer {
+  background-color: #f3f3f3;
+    padding: 32px 16px 16px 16px;
+}
+
+.footer-button {
+    font-family: Raleway;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+    color: #999999;
+    display: flex;
+    font-size: 12px;
+    margin: auto auto 16px auto;
+}
+
+.footer-large {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.footer-contact {
+    font-family: Lora;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+
 }
