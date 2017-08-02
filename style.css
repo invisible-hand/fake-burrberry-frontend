@@ -59,6 +59,65 @@ h2 {
   font-weight: normal;
 }
 
+.inside-button {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.recommend-title {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  border-bottom: 1px solid black;
+  margin: 16px auto 16px 16px;
+}
+
+
+
+
+.product-recommendations {
+  padding: 16px 16px auto 16px;
+  display: flex;
+  flex-wrap: wrap;
+     margin: auto auto auto 16px;
+
+}
+
+.product-recom-card {
+   flex-basis: 150px;
+}
+
+.product-recom-img {
+  width: 130px;
+  height: 174px;
+}
+
+.product-recom-title {
+  width: 130.5px;
+  height: 38px;
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: left;
+  color: #171717;
+
+}
+
+.product-recom-price {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.19;
+  text-align: left;
+  color: #999999;
+
+}
+
+
+
 
 p {
   font-family: 'Raleway';
@@ -69,6 +128,20 @@ p {
   font-size: 12px;
   margin: 16px auto auto 116px;
 
+}
+
+.description-button-text {
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  line-height: 24px;
+  margin: 0;
+
+}
+
+.nonewline {
+  line-height: 16px;
 }
 
 .colour {
@@ -141,6 +214,7 @@ p {
   border: none;
   background-color: white;
   font-size: 12px;
+  margin: auto 16px auto 16px;
 }
 
 
